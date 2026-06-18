@@ -3,8 +3,30 @@ body{
     color:white;
     font-family:monospace;
     text-align:center;
+    margin:0;
+    padding:20px;
 }
 
 h1{
     color:#ff8800;
+}
+
+.card{
+    background:#111;
+    border:1px solid #ff8800;
+    border-radius:12px;
+    padding:20px;
+    margin:15px auto;
+    max-width:300px;
+}
+
+.card h3{
+    color:#ff8800;
+    margin-bottom:10px;
+}
+
+.card span{
+    font-size:24px;
+    color:#00eaff;
+    font-weight:bold;
 }

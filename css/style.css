@@ -11,13 +11,24 @@ h1{
     color:#ff8800;
 }
 
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.dashboard{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+    margin-top:20px;
+}
+
 .card{
     background:#111;
     border:1px solid #ff8800;
-    border-radius:12px;
+    border-radius:15px;
     padding:20px;
-    margin:15px auto;
-    max-width:300px;
+    box-shadow:0 0 10px rgba(255,136,0,0.3);
 }
 
 .card h3{

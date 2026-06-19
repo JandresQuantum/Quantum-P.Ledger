@@ -41,3 +41,17 @@ h1{
     color:#00eaff;
     font-weight:bold;
 }
+.author{
+    color:#ffffff;
+    font-size:16px;
+    margin-top:-5px;
+}
+
+.subtitle{
+    color:#888;
+    font-size:12px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-top:-10px;
+    margin-bottom:25px;
+}

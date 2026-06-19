@@ -55,3 +55,26 @@ h1{
     margin-top:-10px;
     margin-bottom:25px;
 }
+
+.navbar{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-bottom:25px;
+}
+
+.navbar button{
+    background:#111;
+    color:#ff8800;
+    border:1px solid #ff8800;
+    border-radius:10px;
+    padding:10px 15px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.navbar button:hover{
+    background:#ff8800;
+    color:black;
+}

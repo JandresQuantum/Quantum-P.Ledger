@@ -78,3 +78,37 @@ h1{
     background:#ff8800;
     color:black;
 }
+.trade-form{
+    margin-top:30px;
+    background:#111;
+    border:1px solid #ff8800;
+    border-radius:15px;
+    padding:20px;
+}
+
+.trade-form h2{
+    color:#ff8800;
+}
+
+.trade-form select,
+.trade-form input{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border:none;
+    border-radius:10px;
+    background:#1a1a1a;
+    color:white;
+}
+
+.save-btn{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#ff8800;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+}
